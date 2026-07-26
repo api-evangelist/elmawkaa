@@ -1,19 +1,67 @@
 aid: elmawkaa
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elmawkaa.png
 name: Elmawkaa
-description: Elmawkaa is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Elmawkaa (الموقع) is an Egyptian B2B online marketplace that digitizes
+  construction-materials procurement. Founded in Cairo in 2017 by Ebrahem Anwar,
+  Mahmoud Habib, and Mohamed Thabet, the platform lets construction companies
+  request and compare competitive supplier quotations for materials such as
+  cement, steel, and gypsum board, using proprietary matching algorithms to
+  replace slow, manual bidding with a documented, automated process. A 500
+  Startups (500 Global) accelerator graduate that raised a seed round led by
+  Flat6Labs with Oqal and other regional backers, Elmawkaa was fully acquired by
+  Saudi PropTech / real-estate-appraisal platform Ayen in a seven-figure deal in
+  October 2024, with its marketplace folded into Ayen's services. Elmawkaa
+  publishes no public developer API, SDKs, or documentation, and its standalone
+  domain (elmawkaa.com) no longer resolves following the acquisition.
 url: https://raw.githubusercontent.com/api-evangelist/elmawkaa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+x-investors:
+- 500 Global (500 Startups)
+- Flat6Labs
+- Oqal
+- TIEC
+- Hub71
+- Taqadam
+- Injaz
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Ayen
+x-acquired-date: '2024-10'
+x-domain-status: defunct
+x-founded: '2017'
+x-headquarters: Cairo, Egypt
+x-founders:
+- Ebrahem Anwar
+- Mahmoud Habib
+- Mohamed Thabet
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Construction
+- Building Materials
+- Marketplace
+- Procurement
+- B2B
+- PropTech
+- Egypt
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +71,12 @@ maintainers:
 common:
 - type: Website
   url: https://elmawkaa.com
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/elmawkaa-%D8%A7%D9%84%D9%85%D9%88%D9%82%D8%B9
+- type: Instagram
+  url: https://www.instagram.com/elmawkaa/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
